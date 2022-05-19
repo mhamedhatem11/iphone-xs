@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(54, 52, 52);
+}
+
+.container .car img{
+    width: 440px;
+    height: 550px;
+    border: 5px solid rgb(37, 35, 35);
+    border-radius: 5px ;
+}
+.car img:hover{
+    transform: scale(1.1,1.1);
+    transform:scale3d(-1.1);
+}
+.container .Box img{
+    width: 380px;
+    height: 440px;
+    border: 5px solid rgb(37, 35, 35);
+    border-radius: 5px ;
+}
+.mhamed {
+    width: 400px;
+    height: 560px;
+    
+    position: relative;
+    animation: mymove 8s infinite;
+  }
+  
+  @keyframes mymove {
+    80%  {top: 0px; left: 750px; background-image: url('./images/1hiegat.png');}
+   35%  {top: 0px; left: 20px; background-image: url('./images/9hieght.jpg');}
+  }
+  
